@@ -1,0 +1,74 @@
+*{
+    margin : 0;
+    padding: 0;
+    text-align : center;
+   
+}
+body{
+   background-image: url("C:\Users\Pranjal\OneDrive\Desktop\Rock_Paper_Scissor\nature2.jpg");
+   
+   /* background-size:cover; */
+   background-color: rgb(225, 15, 15);
+}
+h1{
+    background-color: black;
+    color : white;
+    padding: 2rem;
+}
+ .choice{ 
+    height: 165px;
+    width: 165px;
+}
+.choices{
+   
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    gap : 4rem;
+}
+img:hover{
+   border-radius: 50%;
+   border: solid black 2px;
+    /* opacity : 0.5; */
+    /* height: 125px; */
+    /* width: 125px; */
+}
+ img{
+    height : 150px;
+    width : 150px;
+    margin-top: 100px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    text-align: center; */
+    /* gap : 2rem; */
+ }
+ .score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 3rem;
+    margin-top:7rem ;
+    
+ }
+ .userscore,.compscore{
+    font-size: 2rem;
+ }
+ #userscore, #compscore{
+    font-size: 5rem;
+    
+ }
+ .msg-container{
+    background-color: darkblue;
+    color: aquamarine;
+    padding: 2rem;
+    font-size: 3rem;
+    margin-top: 4.5rem;
+    display: inline-block;
+    border-radius: 1rem;
+ }
+ .whole{
+    margin-bottom: 2rem;
+ }
